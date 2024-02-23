@@ -5,4 +5,8 @@ while True:
     i += 1
     if i == 9:
         break
-print(incerteza)
+certo=[]
+for c in incerteza:
+    certo.append(1/c**2)
+a = sum(certo)
+print(a)
