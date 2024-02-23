@@ -8,5 +8,6 @@ while True:
 certo=[]
 for c in incerteza:
     certo.append(1/c**2)
+print(certo)
 a = sum(certo)
 print(a)

@@ -9,5 +9,6 @@ while True:
     if i == 9:
         break
 for c in incerteza:
-
+   for b in x:
+       certo.append(b/(c)**2)
 print(certo)

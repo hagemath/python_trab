@@ -1,0 +1,5 @@
+a = float(input('a:' ))
+b = float(input('b:' ))
+c = float(input('c:' ))
+conta = ((a*b)/(c)**2)
+print(conta)
